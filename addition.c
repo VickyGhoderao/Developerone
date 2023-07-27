@@ -1,11 +1,15 @@
 #include <stdio.h>
-
+void add();
 int main()
 {
-  void add();
+  add();
 }
 void add(){
-  int a=2;
-  int b=3;
-  printf("%d",a+b);
+  int a,b;
+  printf("Enter a number:");
+  scanf("%d",&a);
+  printf("Enter a number:");
+  scanf("%d",&b);
+  printf("Addition of two variable is:%d",a+b);
+
 }
