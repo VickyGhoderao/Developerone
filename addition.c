@@ -2,7 +2,14 @@
 
 int main()
 {
-  int a=10;
-  int b=20;
-  printf("%d",a+b);
+  int a,b;
+  /*Taking input from the user*/
+  printf("Enter a number:");
+  scanf("%d",&a);
+  printf("Enter a second number:");
+  scanf("%d",&b);
+  /*Display the answer*/
+  printf("Addition of two variable is:%d",a+b);
+  
+  
 }
