@@ -1,10 +1,11 @@
 #include <stdio.h>
-void add();
+int add();
 int main()
 {
-  add();
+  int a;
+  a=add();
 }
-void add(){
+int add(){
   int a,b;
   printf("Enter a number:");
   scanf("%d",&a);
