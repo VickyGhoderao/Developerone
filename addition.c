@@ -2,6 +2,7 @@
 int add();
 int main()
 {
+  /*i have added varible tos*/
   int a;
   a=add();
 }
