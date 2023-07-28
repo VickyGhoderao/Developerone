@@ -6,7 +6,7 @@ int main()
 }
 void add(){
   int a,b;
-  printf("Enter a two number:");
-  scanf("%d %d",&a,&b);
-  printf("addition of two number is:%d",a+b);
+  a=10;
+  b=20;
+  printf("Addition of two number is:%d",a+b);
 }
