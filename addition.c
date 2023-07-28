@@ -1,9 +1,12 @@
 #include <stdio.h>
-
+int add();
 int main()
 {
+  add();
+}
+int add(){
   int a,b;
-  printf("Enter a number include space:");
-  scanf("%d %d",&a,&b);
-  printf("Addition of two number is:%d",a+b);
+  a=10;
+  b=20;
+  return a+b;
 }
