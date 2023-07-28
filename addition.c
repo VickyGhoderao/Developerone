@@ -8,10 +8,9 @@ int main()
 }
 int add(){
   int a,b;
-  printf("Enter a number:");
-  scanf("%d",&a);
-  printf("Enter a number:");
-  scanf("%d",&b);
+  printf("Enter a number including space:");
+  scanf("%d %d",&a,&b);
   printf("Addition of two variable is:%d",a+b);
+  
 
 }
