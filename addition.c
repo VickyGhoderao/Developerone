@@ -5,5 +5,5 @@ int main()
   int a,b;
   a=10;
   b=20;
-  return a+b;
+  printf("Addition of two number is:%d",a+b);
 }
